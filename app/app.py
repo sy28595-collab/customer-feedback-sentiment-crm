@@ -1,4 +1,9 @@
+import sys
+from pathlib import Path
 import streamlit as st
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT_DIR))
 
 from src.database import (
     create_tables,
