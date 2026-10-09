@@ -183,6 +183,19 @@ div.stButton > button[kind="primary"]:hover {
 
 }
 
+/* Warning message readability */
+div[data-testid="stAlert"] {
+    background-color: #FFF3CD !important;
+    border: 1px solid #E5C76B !important;
+    border-radius: 10px;
+}
+
+div[data-testid="stAlert"] p {
+    color: #664D03 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
